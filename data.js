@@ -587,7 +587,8 @@ window.AITH_TOOLS = [
   {"n": "Retriever AI", "u": "https://www.rtrvr.ai", "c": "Automation", "p": "Freemium"},
   {"n": "ngram", "u": "https://www.ngram.com", "c": "Video", "p": "Freemium"},
   {"n": "Jockey by TwelveLabs", "u": "https://www.twelvelabs.io/jockey", "c": "Video", "p": "Freemium"},
-  {"n": "Eney", "u": "https://eney.ai", "c": "Productivity", "p": "Paid"}
+  {"n": "Eney", "u": "https://eney.ai", "c": "Productivity", "p": "Paid"},
+  {"n": "agent-qa", "u": "https://vostride.com", "c": "Coding", "p": "Free"}
 ];
 
 window.AITH_DESC = {
@@ -1173,5 +1174,6 @@ window.AITH_DESC = {
   "Retriever AI": {"d": "AI web agent in Chrome that pulls Google Maps leads, turns websites into spreadsheets and fills forms for you; free ad-supported mode, paid plans from $9.99/month.", "b": ["Lead lists", "Web to sheet", "Form filling"]},
   "ngram": {"d": "Turns documents, screen recordings and ideas into narrated explainer videos, product walkthroughs and AI-avatar videos you refine in chat.", "b": ["Explainer videos", "Product demos", "Training videos"]},
   "Jockey by TwelveLabs": {"d": "Searches and understands your whole video and photo library, and breaks down why Reels, TikToks and YouTube videos go viral; works inside ChatGPT and Claude.", "b": ["Video library search", "Reels analysis", "Content teams"]},
-  "Eney": {"d": "MacPaw's proactive AI assistant for Mac and iPhone that handles tasks across your apps, drafts emails, takes meeting notes and asks before it acts. 14-day free trial, then from $14.99/month.", "b": ["Mac users", "Meeting notes", "Everyday tasks"]}
+  "Eney": {"d": "MacPaw's proactive AI assistant for Mac and iPhone that handles tasks across your apps, drafts emails, takes meeting notes and asks before it acts. 14-day free trial, then from $14.99/month.", "b": ["Mac users", "Meeting notes", "Everyday tasks"]},
+  "agent-qa": {"d": "Web, Android and iOS QA via CLI, local dashboard or MCP, with persistent memidex memory, validated self-improvement and recorded evidence. Early-stage FSL-1.1-ALv2 software, free for permitted use; competing-use restrictions and separate model/infrastructure costs apply.", "b": ["Web & mobile QA", "Persistent memory", "Validated self-improvement"]}
 };
