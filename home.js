@@ -39,7 +39,7 @@
     }, { threshold: 0.6 });
     nums.forEach(function (n) { io.observe(n); });
   })();
-  var LINK_CHECK = "3 Nov 2026", INDIA_CHECK = "11 Oct 2026";
+  var LINK_CHECK = "8 Nov 2026", INDIA_CHECK = "11 Oct 2026";
 
   /* ---------- data ---------- */
   var DESC = window.AITH_DESC || {};

@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.19 · 8 Nov 2026
+- Big update: 451 new AI tools across all 26 categories (now 1,039). Every new link opened live on 8 Nov 2026 (bot-blocked official sites kept); no duplicate names or domains.
+- Weekly update: 6 new tools. Wanaka Studio (3D & Gaming), Oraku and Videco (Video), Any Video to Text (Transcription), Peach Co-Pilot (Marketing), Tobira Site Agent (Business). Name, pricing and link checked on each official site.
+- Removed Hour One (Avatar): discontinued after Wix bought it in May 2025, site no longer works. /tools/hour-one now 301s to the Avatar category (vercel.json).
+- Full link check on 8 Nov 2026: no other dead links; 50 sites block automated checks (403/429/challenge) and were left as they are. Link-check date updated everywhere.
+- Counts updated to 1,039 (hero, footers, meta and share text, og-image, README, tests).
+
 ## v3.18.1 · 5 Nov 2026
 - GitHub account renamed to kinggend: all "Source on GitHub", changelog and README links now point to github.com/kinggend/AI-TOOLS-HUB.
 

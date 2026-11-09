@@ -37,6 +37,11 @@
       "source": "/tools/hashtagify",
       "destination": "/category/marketing",
       "permanent": true
+    },
+    {
+      "source": "/tools/hour-one",
+      "destination": "/category/avatar",
+      "permanent": true
     }
   ]
 }

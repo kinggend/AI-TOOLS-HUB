@@ -25,7 +25,7 @@ const guidesByTool = {};
 GUIDES.forEach((g) => g.sec.forEach((x) => x.tools.forEach((n) => { (guidesByTool[n] = guidesByTool[n] || new Set()).add(g); })));
 const titleCase = (x) => x.replace(/^./, (c) => c.toUpperCase());
 const icon = (n, cls) => `<svg class="i${cls ? " " + cls : ""}" aria-hidden="true"><use href="/icons.svg#i-${n}"/></svg>`;
-const LINK_CHECK = "3 Nov 2026"; // last full link check (see README); change only after a real full re-check
+const LINK_CHECK = "8 Nov 2026"; // last full link check (see README); change only after a real full re-check
 const INDIA_CHECK = "11 Oct 2026"; // India facts in index.html #india-data were verified on official pages on this date
 const THEME_INIT = '<script>(function(r){var t=null;try{t=localStorage.getItem("aith-theme")}catch(e){}if(t!=="light"&&t!=="dark")t=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";r.setAttribute("data-theme",t)})(document.documentElement)</script>';
 const ISSUE_SUGGEST = "mailto:aitoolshub.support@gmail.com?subject=Tool%20suggestion%3A%20&body=Tool%20name%3A%0AOfficial%20website%20(https)%3A%0ACategory%3A%0APricing%20(Free%20%2F%20Freemium%20%2F%20Paid)%3A%0AWhat%20it%20does%20(one%20line)%3A%0AWhy%20it%20suits%20Indian%20small%20businesses%3A%0A";
