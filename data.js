@@ -1043,7 +1043,8 @@ window.AITH_TOOLS = [
   {"n": "Marlowe", "u": "https://authors.ai", "c": "Writing", "p": "Freemium"},
   {"n": "Junia AI", "u": "https://www.junia.ai", "c": "Writing", "p": "Freemium"},
   {"n": "Writecream", "u": "https://www.writecream.com", "c": "Writing", "p": "Freemium"},
-  {"n": "Type", "u": "https://type.ai", "c": "Writing", "p": "Freemium"}
+  {"n": "Type", "u": "https://type.ai", "c": "Writing", "p": "Freemium"},
+  {"n": "agent-qa", "u": "https://vostride.com", "c": "Coding", "p": "Free"}
 ];
 
 window.AITH_DESC = {
@@ -2085,5 +2086,6 @@ window.AITH_DESC = {
   "Browser Use": {"d": "Open-source library and cloud service that lets AI agents control web browsers.", "b": ["AI browser agents", "Open source", "Cloud API"]},
   "Jina AI": {"d": "Search foundation APIs including Reader, embeddings and rerankers for AI apps.", "b": ["Reader API", "Embeddings", "Reranker"]},
   "Scira": {"d": "Open-source AI search engine that answers questions with cited web sources.", "b": ["Cited answers", "Open source", "Multiple models"]},
-  "Onyx": {"d": "Open-source enterprise search and AI chat connected to workplace tools.", "b": ["Workplace search", "Open source", "Many connectors"]}
+  "Onyx": {"d": "Open-source enterprise search and AI chat connected to workplace tools.", "b": ["Workplace search", "Open source", "Many connectors"]},
+  "agent-qa": {"d": "Natural-language web, Android and iOS QA with persistent memidex memory, validated self-improvement and step screenshots. $0 permitted local FSL-1.1-ALv2 use; model/device costs separate. Requires Node.js 24+ and a configured model/test environment.", "b": ["Persistent memidex memory", "Validated self-improvement", "Step screenshots"]}
 };
